@@ -10,7 +10,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@Script.Manifest(name = "Auto Fighter", description = "Fights monsters to level up your account!")
+@Script.Manifest(
+        name = "Outrage Chicken Slayer", properties = "author=Outrage Host; topic=1300854; client=6;",
+        description = "v1.0 - Fights chickens to level up your account and gain money!"
+)
 
 public class Fighter extends PollingScript<ClientContext> implements PaintListener {
 
